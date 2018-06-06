@@ -1,0 +1,12 @@
+{
+    "bindings": [{
+        "type": "eventHubTrigger",
+        "name": "IoTHubMessages",
+        "direction": "in",
+        "path": "decode18-iothub",
+        "connection": "decode18-iothub_events_IOTHUB",
+        "cardinality": "many",
+        "consumerGroup": "keynote"
+    }],
+    "disabled": false
+}
